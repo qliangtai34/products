@@ -1,0 +1,20 @@
+body {
+    background-color: #eeeeee;
+}
+
+.container {
+    margin: 0 auto;
+    width: 70%;
+    text-align: center;
+}
+
+.form__group-title {
+
+    margin: 0 270px 0 0;
+}
+
+
+
+.input input {
+    width: 400px;
+}

@@ -29,6 +29,7 @@ Route::get('/', function () {
 Route::get('/products',[ProductController::class,'index'] );   //一覧画面
 Route::get('/products/register',[ProductController::class,'create'] );  //登録画面
 Route::post('/products/register',[ProductController::class,'store'] ); //登録処理
+Route::get('/products/search', [ProductController::class, 'search']);
 Route::get('/products/{productId}',[ProductController::class,'edit'] );  //編集画面
 Route::post('/products/{productId}/update',[ProductController::class,'update'] );  //更新処理
 Route::post('/products/{productId}/delete',[ProductController::class,'delete'] );  //削除
